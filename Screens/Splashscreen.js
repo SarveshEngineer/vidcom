@@ -10,7 +10,9 @@ const SplashScreen = () => {
         }}
         style={styles.logo}
       />
-      <Text style={styles.text}>Vidcom▶️</Text>
+      <Text style={styles.text} numberOfLines={1} ellipsizeMode="clip">
+        Vidcom▶️
+      </Text>
     </View>
   );
 };

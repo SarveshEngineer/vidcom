@@ -9,7 +9,7 @@ const App = () => {
   // Simulate a 3-second delay for demo purposes
   setTimeout(() => {
     setShowSplashScreen(false);
-  }, 50000);
+  }, 5000);
 
   return (
     <View style={{flex: 1}}>
